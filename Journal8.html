@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+</style>
+</head>
+<body style="background-color:red;">
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #8<br /><h6>Farzan Bhuiyan</h6>
+	<h5>September 22, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #8: Voltage Regulators Research</h2>
+				<h5>Learning about Voltage Regulators! September 22, 2018</h5>
+				<img src="http://www.learningaboutelectronics.com/images/LM7805.jpg" alt="capacitor2200" style="height:200px;">
+				<figcaptionLM7805 Voltage Regulator</figcaption>
+				<p>Today I did some research on voltage regulators and learned about its purpose in a circuit and how it works. I then created a simple schematic (diagram) of a voltage regulator using AUTOCAD 2016. This diagram will be attached below. The voltage regulator I will be using for my project is an LM7805 voltage regulator. An LM7805 voltage regulator outputs a positive voltage of 5V. A voltage regulator with LM78XX has a positive voltage, and the last two numbers is the voltage output. A voltage regulator with LM79XX has a negative voltage. Voltage regulators are necessary in circuits where a consistent amount of DC voltage is needed throughout a circuit. In a phone charger, the voltage needs to be consistent because a phone can only consume a certain amount of voltage. An inconsistent voltage output or a voltage output that is too high can short circuit a phone and ruin it. A typical phone requires about a 5V output voltage, which is why I am using a 5V voltage regulator for my circuit. </p>
+				<img src="https://imgur.com/7dPYlqU.png" alt="voltregdiagram" style="height:400px;">
+				<figcaption>This is a simple 2D diagram of a LM7805 Voltage Regulator I created using AUTOCAD 2016</figcaption>
+				<p>Note: This diagram is not my original diagram, it is a recreation of a diagram from http://www.learningaboutelectronics.com/Articles/What-is-a-LM7805-voltage-regulator</p>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progress through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+		<div class="card">
+			<h3>Citations</h3>
+			<h5>Research sources</h5>
+			<p>What is a LM7805 Voltage Regulator? (n.d.). Retrieved from http://www.learningaboutelectronics.com/Articles/What-is-a-LM7805-voltage-regulator</p>
+			<p>What is a Voltage Regulator? (n.d.). Retrieved from http://www.learningaboutelectronics.com/Articles/What-is-a-voltage-regulator</p>
+			<p>How to Connect a Voltage Regulator in a Circuit. (n.d.). Retrieved from http://www.learningaboutelectronics.com/Articles/How-to-connect-a-voltage-regulator-in-a-circuit</p>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<img src="https://imgur.com/BpqQZAB.png" alt="autocad" style="height:400px;">
+	<figcaption>AUTOCAD interface</figcaption>
+</div>
+
+</body>
+</html>
+

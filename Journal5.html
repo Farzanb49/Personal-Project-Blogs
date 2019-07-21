@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #5<br /><h6>Farzan Bhuiyan</h6>
+	<h5>August 30, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #5:Remaining Components have Arrived!</h2>
+				<h5>Capacitors and solar panels came in the mail today!</h5>
+						<img src="https://imgur.com/an3yEPD.png" alt="capacitors" style="height:200px;">
+					<div class="column">
+						<img src="https://imgur.com/dERpvea.png" alt="solar panels" style="height:200px;">
+					</div>
+				<p> Capacitors are a necessary electrical component because they make sure the current flows through the circuit without any ripples, thus keeping the current consistent, and preventing it from fluctuating. For this project, 2 types of capacitors are necessary. The first capacitor is a 2200uF (microfarad) capacitor, which is the bigger capacitor in this project, and the other is a 100uF capacitor. The reason behind why both a 2200uF capacitor and 100uF capacitor are needed involves some math, which I will look into with further detail in a later journal entry. The solar panels use solar energy to help power the product. The specifications for the solar panels are 6V and 1W per solar panel. I will use one solar panel for my first attempt at creating the phone charger. I may then attempt using 3 solar panels to provide more power output to the charger, which could help charge the phones faster. My goal with using solar energy is to create practical technology that can help offset carbon emissions using off grid energy sources. My next steps are probably drawing out schematics and planning the structure of my circuit, and to continue doing some research on the various components involved in this project. I will also provide some research related to renewable energy use, and analyse carbon emission offsets through use of renewable technology. I plan to complete most of my research before the school year starts. This will help me put more attention into constructing my device and give me more time to evaluate my product. I am planning on beginning construction of the project around the second week of September. I still need to obtain a soldering iron in order to construct my product. I also want to provide some more research before I begin constructing my product.</p>
+				<img src="https://imgur.com/JBercpR.png" alt="capacitor2200" style="height:200px;">
+				<figcaption>2200uF Capacitors x3</figcaption>
+				<img src="https://imgur.com/FpbUAzq.png" alt="capacitor100" style="height:200px;">
+				<figcaption>100uF Capacitors x25</figcaption>
+				<img src="https://imgur.com/dERpvea.png" alt="solar panels" style="height:200px;">
+				<figcaption>6V 1W Solar Panel x3</figcaption>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progressing through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+</div>
+
+</body>
+</html>
+

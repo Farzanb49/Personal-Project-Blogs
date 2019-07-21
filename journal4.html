@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+
+/* Indent Paragraphs */
+.indented {
+	padding-left: 50pt;
+  	padding-right: 50pt;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #4<br /><h6>Farzan Bhuiyan</h6>
+	<h5>August 12, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #4: Some Stuff Came in the Mail Today</h2>
+				<h5>Parts that have arrived, August 12, 2018</h5>
+				<img src="https://imgur.com/0KXhw2Z.png" alt="charger parts" style="height: 200px;">
+				<hr>
+				<p>Some materials I ordered for my personal project came today. There is nothing much to use to start the project right away, but I may experiment with some the the parts that came. A quick overview of the parts:</p>
+				<p class="indented">Breadboard - The electric board which I will construct my product on</p>
+				<img src="https://imgur.com/SJjPMFR.png" alt="breadboard" style="height:200px;">
+				<p class="indented">Jumper Wires - Wires that will provide path for the electricity to travel</p>
+				<img src="https://imgur.com/u0R4hLt.png" alt="jumper wires" style="height:200px;">
+				<p class="indented">Voltage Regulator - To regulate the voltage and make sure the voltage does not go over 5V, or else phone would short circuit and fry up</p>
+				<img src="https://imgur.com/Oyc7h47.png" alt="voltage regulator" style="height:200px;">
+				<p> That is all for today! I am going to try experimenting with these products, and test out the voltage regulator, just to make sure it regulates the voltage to 5V. Hopefully the rest of my parts will arrive soon.</p>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progressing through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="row">
+		<div class="column">
+			<img src="https://imgur.com/SJjPMFR.png" alt="breadboard" style="height:200px;">
+			<figcaption>Three Breadboards (I only need one, ordered three to do other projects for fun)</figcaption>
+		</div>
+		<div class="column">
+			<img src="https://imgur.com/u0R4hLt.png" alt="jumper wires" style="height:200px;">
+			<figcaption>140 Jumper Wires (not all will be used)</figcaption>
+		</div>
+		<div class="column">
+			<img src="https://imgur.com/Oyc7h47.png" alt="voltage regulator" style="height:200px;">
+			<figcaption>L7805 5V Voltage Regulator</figcaption>
+		</div>
+</div>
+
+</body>
+</html>
+

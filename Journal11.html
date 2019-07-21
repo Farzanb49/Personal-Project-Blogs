@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+</style>
+</head>
+<body style="background-color:orange;">
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #11<br /><h6>Farzan Bhuiyan</h6>
+	<h5>October 14th, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #11: Finishing my Product</h2>
+				<h5> Is it charging???, October 14, 2018</h5>
+				<img src="https://imgur.com/vYWyrNe.png" alt="capacitor2200" style="height:200px;">
+				<p>Today, I finished constructing my product! Of course, the design is not very marketable, but I fulfilled my fundamental goal of finishing a product that is functionable and serves the purpose I intend it to. As I mentioned in my last process journal, the last thing I had left was to splice a USB cable and connect it to the breadboard. Splicing proved to be a little difficult, as I did not have a wire stripper to splice the cable, so I had to make do with a pocket knife and my teeth, but it worked out fine. Once I had spliced my cable, and attached it to the breadboard, I needed to find a reliable light source. Luckily, it was a sunny day, so I was able to provide effective amounts of solar energy to power my product. Before actually plugging in a phone to the cable, I decided to first measure the voltage output using a multimeter (as shown below).</p>
+				<img src="https://imgur.com/PXr5VIk.png" alt="multimeter test" style="height:200px;">
+				<p>It showed the voltage output to be above 6V, which was much more than anticipated. When attempting to charge my phone, however, it was not working. I was very confused as to why. I re-checked my charger to make sure all the wires and electrical components were connected in the right breadboard holes. They all seemed fine, so I was quite confused. I then realized that there may be a problem with the voltage regulator because the voltage output was 6V (as mentioned before), but the regulator should regulate it to 5V. When looking back at the video, the voltage regulator seemed to be properly set up, and all the wires matched the proper legs. I was finding it difficult to pinpoint a problem with my charger. However, my dad came up with an ingenious idea. He told me to try and flip the voltage regulator around, so I did, and it somehow worked! I believe the wires did not correspond to the proper legs of the voltage regulator, which prevented the voltage regulator from working. But once that problem was solved, my project was up and running. It was successfully charging my phone. However, it charges quite slow, taking over 15 minutes to charge 1%. To provide more efficiency, a greater power output would be required, such as multiple solar panels in a parallel circuit. The fundamental goal for my project has been accomplished, which was to successfully construct a solar powered phone charger. My next steps are to evaluate my product, and determine ways to make it more efficient, aesthetic, and marketable, as well as provide some further research on positive environmental impacts of renewable energy sources and illustrating how solar powered technology can offset carbon emissions in our atmosphere. At the bottom of the blog I have pictures of the process I went through to create this product. These illustrations can also be found on my previous process journal.</p>
+				<img src="https://imgur.com/vYWyrNe.png" alt="capacitor2200" style="height:400px;">
+				<figcaption>Solar powered portable phone charger</figcaption>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progress through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+		<div class="card">
+			<h3>Tutorial I am Following</h3>
+			<h5>The tutorial I am relying on to help me successfully construct my product.</h5>
+			<a href="https://www.youtube.com/watch?v=i5y_JZRr_Fw">https://www.youtube.com/watch?v=i5y_JZRr_Fw</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="column">
+		<img src="https://imgur.com/gIs02W7.png" alt="fofgj" style="height:200px;">
+		<figcaption>Determining if holes in breadboard are interconnected through measuring resistance. If resistance is 0, then holes are interconnected.</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/8mZBdju.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning 100 microfarad (uF) capacitor</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/yBjEZNP.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning voltage regulator</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/bSZ1FnN.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning 2200uF capacitor</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/GbOy3EW.png" alt="fofgj" style="height:200px;">
+		<figcaption>Current progress with the development of my product</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/It3OhM2.png" alt="fofgj" style="height:200px;">
+		<figcaption>Solar Panel</figcaption>
+	</div>
+		<img src="https://imgur.com/Ot9Ua6b.png" alt="fofgj" style="height:200px;">
+		<figcaption> Generic picture just to give idea of working environment</figcaption>
+</div>
+
+</body>
+</html>

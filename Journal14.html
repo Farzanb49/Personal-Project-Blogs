@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+</style>
+</head>
+<body style="background-color:brown;">
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #14<br /><h6>Farzan Bhuiyan</h6>
+	<h5>October 24th, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #14: Product Evaluation - Improving Product Efficiency with Added Solar Panel</h2>
+				<h5> Adding another solar panel, October 24, 2018</h5>
+				<img src="https://imgur.com/MNrztIZ.png" alt="capacitor2200" style="height:200px;">
+				<p>I have decided to move forward with the idea of adding a second solar panel. The purpose of the solar panel is to determine if the efficiency and charging time of my solar powered phone charger will increase. Through trial last time, I determined that a one solar panelled phone charger would charge a phone by 1 percent every 20 to 25 minutes (ignoring inconsistencies with charging). The results after five trials with one solar panel will be illustrated below. After soldering on the second solar panel today, I tried to test charging time once again, and results did show slight improvement, but inconsistently once again. When charging properly, the solar powered charger, now with two solar panels, would charge the phone on average in 10-15 minutes. However, when I say inconsistencies, I mean the phone would after a while not charge as effectively, or even lose charge. While I determined how to improve charging time through added solar power, I have yet to solve the inconsistent charging issues with my product. However, I have a hypothesis that I may test out if time allows. A diode is an electrical component that prevents current from moving back. Adding this component to my charger may help the current in my charge move in one forward direction that could provide consistent charge to a phone.</p>
+				<img src="https://imgur.com/xR3AVAP.png" alt="fjfjf" style="height:200px;">
+				<figcaption>Comparison of Charging Time Between 1 Solar Panel and Two Solar Panels<figcaption>
+				<img src="https://imgur.com/UfSt1SX.png" alt="gjgjg" style="height:200px;">
+				<figcaption>Note: The units for time for charging 1% are in minutes<figcaption>
+				<p>I hypothesize the reason for the variances in charging time is because of when I am charging it. Sometimes the phone is closer to charging up 1% then at other times. In conclusion, while charging time has become more efficient, there are still inconsistencies in the charging that need to be fixed.</p>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progress through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+		<div class="card">
+			<h3>Tutorial I am Following</h3>
+			<h5>The tutorial I am relying on to help me successfully construct my product.</h5>
+			<a href="https://www.youtube.com/watch?v=i5y_JZRr_Fw">https://www.youtube.com/watch?v=i5y_JZRr_Fw</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	
+</div>
+
+</body>
+</html>

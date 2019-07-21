@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+</style>
+</head>
+<body style="background-color:purple;">
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #9<br /><h6>Farzan Bhuiyan</h6>
+	<h5>September 29, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #9: Learning about Breadboards</h2>
+				<h5>Learning about Breadboards! September 29, 2018</h5>
+				<img src="https://images-na.ssl-images-amazon.com/images/I/91Sb6QABcZL._SL1500_.jpg" alt="capacitor2200" style="height:200px;">
+				<p>Today, I am finishing off my research on the components of my project. The three components I have little background knowledge of are voltage regulators, capacitors, and breadboards. I have gained some knowledge about voltage regulators and capacitors before and documented it in my process journal. Therefore, today, I learned about breadboards. A breadboard is a solderless device for temporary prototype with electronics and test circuit design. Basically, it is a great tool for experimenting with electrical components and creating prototype electrical devices. You can interconnect components in an electronic circuit by inserting their leads or terminals into the holes in the breadboard, and then making connections with them through wires where necessary. The breadboard has strips of metal underneath the board and connect the holes on the top of the board. Each row of holes on the sides of the breadboard are internally connected and each column of holes in the middle of the breadboard are internally connected, as illustrated in the diagram below. These interconnected holes are known as nodes. To interconnect two holes from different nodes, you have to use a cable connecting the two holes. </p>
+				<img src="http://wiring.org.co/learning/tutorials/breadboard/imgs/breadboard-02.jpg" alt="breadboard" style="height:200px;">
+				<figcaption> source:http://wiring.org.co/learning/tutorials/breadboard</figcaption> 
+				<img src="http://wiring.org.co/learning/tutorials/breadboard/imgs/breadboard-03.jpg" alt="bread2" style="height:200px;">
+				<figcaption> source:http://wiring.org.co/learning/tutorials/breadboard</figcaption>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progress through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+		<div class="card">
+			<h3>Citations</h3>
+			<h5>Research sources</h5>
+			<p>Barrag, H. (n.d.). Breadboard Wiring. Retrieved from http://wiring.org.co/learning/tutorials/breadboard/</p>
+			<p>How to Use a Breadboard. (n.d.). Retrieved from https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard</p>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
+

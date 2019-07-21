@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width:100%;
+		padding: 0;
+	}
+}
+  p {
+    text-indent: 30pt;
+  }
+
+div.d {
+   	text-align: justify;
+	margin-right: 50px;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+</style>
+</head>
+<body style="background-color:lime;">
+
+<div class="header">
+	<h3>MYP Personal Project - Process Journal Entry #10<br /><h6>Farzan Bhuiyan</h6>
+	<h5>September 30, 2018</h5>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>Journal Entry #10: Constructing my Device</h2>
+				<h5>Developing my product, September 30, 2018</h5>
+				<img src="https://imgur.com/GbOy3EW.png" alt="capacitor2200" style="height:200px;">
+				<p>I have at last started constructing my product and have completed a majority of it. Throughout the process, I have gained some valuable experience working with electrical components and have developed a stronger understanding of how electrical components work and function in an electric device. I learned how electrical components are placed onto breadboards, gaining a fundamental understanding of the positive and negative legs of a breadboard. I first attached the 2200uF capacitor, followed by some jumper wires, and then connected the 100uF capacitor. Then I connected the voltage regulator, and finally I soldered jumper wires onto the solar panel (with the guidance of my Dad) and connected it to the breadboard. I could go into further explanation of the construction process of my project, but I will save that for my report, where I will go into further depth about the design of this project. My next step is to splice a USB cable and connect it to the breadboard, and then I will test my product and see if it is successful. Below are some photographs documenting the progress of the construction of my project.</p>
+			</div>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<div class="d">
+				<h2>About Me</h2>
+				<img src="https://imgur.com/OVv8wbX.png" alt="Sauga Skyline" style="height:100px;">
+				<p>Hi! My name is Farzan Bhuiyan, a grade 10 MYP student at Turner Fenton S.S. These blogs are dedicated to my personal project journal entries. As I continue to work on my personal project, I will keep documenting my progress through blogs like these! I Hope you'll like them!</p>
+			</div>
+		</div>
+		<div class="card">
+			<h3>Resources</h3>
+			<h5>Resources that helped me learn how to code this blog<h5>
+			<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp">https://www.w3schools.com/howto/howto_css_blog_layout.asp</a>
+			<a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+			<a href="http://www.echoecho.com/htmllinks01.htm">http://www.echoecho.com/htmllinks01.htm</a>
+			<a href="https://html.com/paragraphs/#Indenting">https://html.com/paragraphs/#Indenting</a>
+			<a href="http://www.informit.com/articles/article.aspx?p=131028&seqNum=7">http://www.informit.com/articles/article.aspx?p=131028&seqNum=7</a>
+			<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent">https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-indent</a>
+			<a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">https://www.w3schools.com/cssref/pr_text_text-align.asp</a>
+		</div>
+		<div class="card">
+			<h3>Tutorial I am Following</h3>
+			<h5>The tutorial I am relying on to help me successfully construct my product.</h5>
+			<a href="https://www.youtube.com/watch?v=i5y_JZRr_Fw">https://www.youtube.com/watch?v=i5y_JZRr_Fw</a>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="column">
+		<img src="https://imgur.com/gIs02W7.png" alt="fofgj" style="height:200px;">
+		<figcaption>Determining if holes in breadboard are interconnected through measuring resistance. If resistance is 0, then holes are interconnected.</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/8mZBdju.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning 100 microfarad (uF) capacitor</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/yBjEZNP.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning voltage regulator</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/bSZ1FnN.png" alt="fofgj" style="height:200px;">
+		<figcaption>Positioning 2200uF capacitor</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/GbOy3EW.png" alt="fofgj" style="height:200px;">
+		<figcaption>Current progress with the development of my product</figcaption>
+	</div>
+	<div class="column">
+		<img src="https://imgur.com/It3OhM2.png" alt="fofgj" style="height:200px;">
+		<figcaption>Solar Panel</figcaption>
+	</div>
+		<img src="https://imgur.com/Ot9Ua6b.png" alt="fofgj" style="height:200px;">
+		<figcaption> Generic picture just to give idea of working environment</figcaption>
+</div>
+
+</body>
+</html>
